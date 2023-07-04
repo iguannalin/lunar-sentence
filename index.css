@@ -46,6 +46,10 @@ body {
   resize: none;
 }
 
+a, a:visited {
+  color: antiquewhite;
+}
+
 #prompt:focus {
   outline: none;
 }
