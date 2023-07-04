@@ -13,9 +13,6 @@ window.addEventListener("load", () => {
   function onType(e) {
     audio.loop = false;
     audio.play(); 
-    // setTimeout(() => {
-    //   parent.innerText += '?';
-    // }, max*speed);
     if (e.data && e.data.toUpperCase() in alphabet) {
       e.target.value = e.target.value.substr(0,e.target.value.length-1) + alphabet[e.data.toUpperCase()].symbol;
     }
